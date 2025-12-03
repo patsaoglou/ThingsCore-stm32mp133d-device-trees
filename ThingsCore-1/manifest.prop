@@ -1,0 +1,5 @@
+MANIFEST_VERSION = openstlinux-6.1-yocto-mickledore-mpu-v24.06.26
+KERNEL_DT = ./DeviceTree/ThingsCore-1/kernel
+OPTEE_DT = ./DeviceTree/ThingsCore-1/optee-os
+UBOOT_DT = ./DeviceTree/ThingsCore-1/u-boot
+TFA_DT = ./DeviceTree/ThingsCore-1/tf-a
