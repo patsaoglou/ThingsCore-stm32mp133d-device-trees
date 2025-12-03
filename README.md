@@ -7,4 +7,4 @@ The device trees base is generated using STM32CubeIDE and boot chain of TF-A->OP
 
 For the binaries, the patched sources of TF-A, OP-TEE, UBOOT and linux by STMicroelectronics are used, found at the OpenSTLinux Developer Package.
 
-If diffent size of RAM is used, The memory node of each stage must be changed but also the TF-A-FW-CONFIG files so TF-A knows on which memory section to find the entry point for OP-TEE and UBOOT. Also be mind that the dtsi of the SOC must be included in the project's uboot dtsi so the peripfheralls like serial and USB OTG are registered successfully to uboot.
+If different size of RAM is used, the memory node of each stage must be changed but also the TF-A-FW-CONFIG files so TF-A knows on which memory section to find the entry point for OP-TEE and UBOOT. Also be mind that the dtsi of the SOC must be included in the project's uboot dtsi so the peripfheralls like serial and USB OTG are registered successfully to uboot.
